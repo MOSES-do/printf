@@ -8,9 +8,9 @@
 
 int printd(va_list arg)
 {
-	int n = va_arg(args, int)
+	int n = va_arg(arg, int);
 	int num, last = n % 10, digit, exp = 1;
-	int i = 1
+	int i = 1;
 
 	n = n / 10;
 	num = n;
@@ -54,9 +54,9 @@ int printd(va_list arg)
 
 int printi(va_list arg)
 {
-	int n = va_arg(args, int)
+	int n = va_arg(arg, int);
 	int num, last = n % 10, digit, exp = 1;
-	int i = 1
+	int i = 1;
 
 	n = n / 10;
 	num = n;
