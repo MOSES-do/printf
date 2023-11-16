@@ -18,15 +18,11 @@ int printf_string(va_list val)
 	{
 		len = _strlen(str);
 		for (i = 0; str[i] != '\0'; i++)
-<<<<<<< HEAD
 			_putchar(str[i]);
 	}
 	return (len);
 }
-=======
 		_putchar(str[i]);
 	}
 	return (len);
 }
-
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf

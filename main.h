@@ -39,7 +39,3 @@ int print_rot13(va_list val);
 int print_hex_more(unsigned long int q);
 int print_exc_string(va_list val);
 #endif
-<<<<<<< HEAD
-=======
-
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf

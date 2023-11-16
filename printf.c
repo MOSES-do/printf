@@ -16,11 +16,8 @@ int _printf(const char *format, ...)
 		{"%u", print_unsigned},
 		{"%o", print_octa}, {"%x", print_hexa}, {"%X", print_HEXA},
 		{"%S", print_exc_string}, {"%p", print_pointer}
-<<<<<<< HEAD
 	};
-=======
 		};
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf
 
 	va_list args;
 	int i = 0, j, len = 0;
@@ -41,7 +38,6 @@ Here:
 				i = i + 2;
 				goto Here;
 			}
-<<<<<<< HEAD
 			j--;
 		}
 		_putchar(format[i]);
@@ -51,7 +47,6 @@ Here:
 	va_end(args);
 	return (len);
 }
-=======
 				j--;
 		}
 				_putchar(format[i]);
@@ -62,4 +57,3 @@ Here:
 	return (len);
 }
 
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf

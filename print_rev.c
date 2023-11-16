@@ -17,7 +17,7 @@ int print_rev(va_list val)
 	{
 		count++;
 	}
-<<<<<<< HEAD
+	
 	for (i = count - 1 ; i >= 0 ; i--)
 	{
 		_putchar(s[i]);
@@ -25,7 +25,6 @@ int print_rev(va_list val)
 	}
 	return (count);
 }
-=======
 
 	for (i = count - 1 ; i >= 0 ; i--)
 	{
@@ -35,4 +34,3 @@ int print_rev(va_list val)
 	return (count);
 }
 
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf

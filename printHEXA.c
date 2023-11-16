@@ -30,20 +30,13 @@ int print_HEXA(va_list val)
 	for (i = j - 1 ; i >= 0 ; i--)
 	{
 		if (array[i] > 9)
-<<<<<<< HEAD
 			array[i] = array[i] + 7;
 		_putchar(array[i] + '0');
-=======
 		{
 			array[i] = array[i] + 7;
 			_putchar(array[i] + '0');
 		}
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf
 	}
 	free(array);
 	return (j);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf

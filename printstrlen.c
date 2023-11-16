@@ -17,7 +17,6 @@ int _strlen(char *s)
 	return (count);
 }
 
-<<<<<<< HEAD
 /**
  * _strlenconst - String
  * @s: counted string
@@ -34,5 +33,3 @@ int _strlenconst(const char *s)
 		count++;
 	return (count);
 }
-=======
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf

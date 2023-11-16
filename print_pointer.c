@@ -24,19 +24,12 @@ int print_pointer(va_list val)
 		}
 		return (j);
 	}
-<<<<<<< HEAD
-=======
-	
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf
 	i = (unsigned long int)p;
 	_putchar ('0');
 	_putchar ('x');
 	q = print_hex_more(i);
-<<<<<<< HEAD
 	return (q + 2);
 }
 =======
 return (q + 2);
 }
-
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf

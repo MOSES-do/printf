@@ -23,31 +23,21 @@ int print_hex_more(unsigned long int q)
 
 	for (i = 0 ; i < j ; i++)
 	{
-<<<<<<< HEAD
 		array[i] = temp % 16;
 		temp = temp / 16;
-=======
-	array[i] = temp % 16;
-	temp = temp / 16;
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf
+		array[i] = temp % 16;
+		temp = temp / 16;
 	}
 	for (i = j - 1 ; i >= 0 ; i--)
 	{
 		if (array[i] > 9)
-<<<<<<< HEAD
 			array[i] = array[i] + 39;
 		_putchar(array[i] + '0');
-=======
 		{
 			array[i] = array[i] + 39;
 			_putchar(array[i] + '0');
 		}
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf
 	}
 	free(array);
 	return (j);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf
