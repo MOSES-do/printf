@@ -14,3 +14,7 @@ int printf_char(va_list val)
 	_putchar(str);
 	return (1);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf

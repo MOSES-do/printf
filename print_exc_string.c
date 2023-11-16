@@ -39,3 +39,7 @@ int print_exc_string(va_list val)
 	}
 	return (len);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf
