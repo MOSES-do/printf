@@ -2,7 +2,7 @@
 
 /**
  * print_hex_more - convert to hexa
- * @val: parameter
+ * @q: parameter
  * Return: j
  *
  */
@@ -19,9 +19,9 @@ int print_hex_more(unsigned long int q)
 		j++;
 	}
 	j++;
-        array = malloc(sizeof(long int) * j);
+	array = malloc(sizeof(long int) * j);
 
-        for (i = 0 ; i < j ; i++)
+	for (i = 0 ; i < j ; i++)
 	{
 		array[i] = temp % 16;
 		temp = temp / 16;

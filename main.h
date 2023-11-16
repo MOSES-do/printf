@@ -6,11 +6,18 @@
 #include <limits.h>
 #include <unistd.h>
 
+/**
+ * struct format - contains several functions
+ * @ph: char pointer
+ * @fp: function pointer
+ *
+ */
+
 typedef struct format
 {
 	char *ph;
 	int (*fp)();
-}Hind;
+} Hind;
 int _putchar(char c);
 int _printf(const char *format, ...);
 int printf_char(va_list val);
@@ -32,4 +39,3 @@ int print_rot13(va_list val);
 int print_hex_more(unsigned long int q);
 int print_exc_string(va_list val);
 #endif
-

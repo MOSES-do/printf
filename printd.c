@@ -17,7 +17,7 @@ int printd(va_list arg)
 
 	if (last < 0)
 	{
-		_putchar('_');
+		_putchar('-');
 		num = -num;
 		n = -n;
 		last = -last;
@@ -25,7 +25,7 @@ int printd(va_list arg)
 	}
 	if (num > 0)
 	{
-		while (n / 10 != 0)
+		while (num / 10 != 0)
 		{
 			exp = exp * 10;
 			num = num / 10;
@@ -63,7 +63,7 @@ int printi(va_list arg)
 
 	if (last < 0)
 	{
-		_putchar('_');
+		_putchar('-');
 		num = -num;
 		n = -n;
 		last = -last;
@@ -71,7 +71,7 @@ int printi(va_list arg)
 	}
 	if (num > 0)
 	{
-		while (n / 10 != 0)
+		while (num / 10 != 0)
 		{
 			exp = exp * 10;
 			num = num / 10;

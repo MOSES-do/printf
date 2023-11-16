@@ -20,9 +20,9 @@ int print_hexa(va_list val)
 		j++;
 	}
 	j++;
-        array = malloc(sizeof(int) * j);
+	array = malloc(sizeof(int) * j);
 
-        for (i = 0 ; i < j ; i++)
+	for (i = 0 ; i < j ; i++)
 	{
 		array[i] = temp % 16;
 		temp = temp / 16;

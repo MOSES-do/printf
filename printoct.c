@@ -21,12 +21,11 @@ int print_octa(va_list val)
 	}
 	j++;
 	array = malloc(sizeof(int) * j);
-	
 	for (i = 0 ; i < j ; i++)
 	{
 		array[i] = temp % 8;
 		temp = temp / 8;
-	}	
+	}
 	for (i = j - 1 ; i >= 0 ; i--)
 	{
 		_putchar(array[i] + '0');

@@ -1,8 +1,8 @@
 #include "main.h"
 
-/*
- * print_37 - print percentage
- * Return: 0
+/**
+ * print_37 - convert to percentage
+ * Return: void
  *
  */
 

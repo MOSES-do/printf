@@ -30,7 +30,7 @@ int printb(va_list val)
 	if (count == 0)
 	{
 		count++;
-		_putchar('0') ;
+		_putchar('0');
 	}
 	return (count);
 }
