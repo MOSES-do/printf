@@ -1,6 +1,4 @@
 #include "main.h"
-#include "printch.c"
-#include "printstr.c"
 
 /**
 * _printf - Prototype of print_f Function
