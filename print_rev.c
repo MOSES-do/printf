@@ -26,11 +26,4 @@ int print_rev(va_list val)
 	return (count);
 }
 
-	for (i = count - 1 ; i >= 0 ; i--)
-	{
-		_putchar(s[i]);
-		return (count);
-	}
-	return (count);
-}
 

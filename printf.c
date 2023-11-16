@@ -17,7 +17,6 @@ int _printf(const char *format, ...)
 		{"%o", print_octa}, {"%x", print_hexa}, {"%X", print_HEXA},
 		{"%S", print_exc_string}, {"%p", print_pointer}
 	};
-		};
 
 	va_list args;
 	int i = 0, j, len = 0;
@@ -44,15 +43,6 @@ Here:
 		len++;
 		i++;
 	}
-	va_end(args);
-	return (len);
-}
-				j--;
-		}
-				_putchar(format[i]);
-				len++;
-				i++;
-			}
 	va_end(args);
 	return (len);
 }

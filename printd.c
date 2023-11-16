@@ -21,11 +21,7 @@ int printd(va_list arg)
 		num = -num;
 		n = -n;
 		last = -last;
-<<<<<<< HEAD
-		i++;
-=======
 	i++;
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf
 	}
 	if (num > 0)
 	{
@@ -41,7 +37,6 @@ int printd(va_list arg)
 			_putchar(digit + '0');
 			num = num - (digit * exp);
 			exp = exp / 10;
-<<<<<<< HEAD
 			i++;
 		}
 	}
@@ -89,16 +84,11 @@ int printi(va_list arg)
 			num = num - (digit * exp);
 			exp = exp / 10;
 			i++;
-=======
 		i++;
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf
 		}
 	}
 	_putchar(last + '0');
 
 	return (i);
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 614d3f6611e96bffc8e6924e317bc09b76663dcf

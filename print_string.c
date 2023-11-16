@@ -22,7 +22,3 @@ int printf_string(va_list val)
 	}
 	return (len);
 }
-		_putchar(str[i]);
-	}
-	return (len);
-}
