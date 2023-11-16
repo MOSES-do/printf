@@ -1,5 +1,10 @@
 #include "_putchar.c"
 
+/**
+* printStr - function to parse string
+* @args: format specifiers to check
+* Return: Always len
+*/
 int printStr(va_list args)
 {
 	char *str;
