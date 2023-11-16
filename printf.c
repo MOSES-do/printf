@@ -16,10 +16,10 @@ int _printf(const char *format, ...)
 
 	va_start(list_args, format);
 
-	if (format == NULL)
-		return (-1);
-
 	ptr = format;
+
+	if (ptr == NULL)
+		return (-1);
 
 	while (ptr[i])
 	{
