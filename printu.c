@@ -28,7 +28,7 @@ int print_unsigned(va_list arg)
 	{
 		while (num / 10 != 0)
 		{
-			
+
 			exp = exp * 10;
 			num = num / 10;
 		}

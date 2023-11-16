@@ -32,10 +32,7 @@ int print_HEXA(va_list val)
 		if (array[i] > 9)
 			array[i] = array[i] + 7;
 		_putchar(array[i] + '0');
-		{
-			array[i] = array[i] + 7;
-			_putchar(array[i] + '0');
-		}
+
 	}
 	free(array);
 	return (j);

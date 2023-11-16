@@ -7,6 +7,7 @@
  *
  */
 
+
 int print_pointer(va_list val)
 {
 	void *p;
@@ -30,3 +31,4 @@ int print_pointer(va_list val)
 	q = print_hex_more(i);
 	return (q + 2);
 }
+

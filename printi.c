@@ -44,5 +44,3 @@ int printi(va_list arg)
 
 	return (i);
 }
-
-
